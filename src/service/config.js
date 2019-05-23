@@ -1,0 +1,1 @@
+export const base = "https://www.chaufany.com"

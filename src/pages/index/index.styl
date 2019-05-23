@@ -1,0 +1,135 @@
+.home{
+  background: #f8f8f8
+  padding: 20px
+  &_top-tab{
+    position: fixed
+    top: 0
+    color:#ccc
+    background-image: radial-gradient(300px at 100px 100px, #fff 60px, #333 100px)
+    width: 100%
+    left: 0
+    font-size: 32px
+    height: 350px
+    z-index: 0
+    // padding: 0 10px
+    // border-bottom-left-radius: 40px
+    // border-bottom-right-radius: 40px
+    text{
+      padding: 20px 20px
+    }
+    .active{
+      color: #fff
+      font-size: 38px
+    }
+  }
+  &_recommend{
+    z-index: 1
+    border-radius: 10px
+    position: relative
+    margin-top: 60px
+    background: #fff
+    text-align: center
+    padding: 30px
+    color: #ccc
+    font-size: 24px
+    line-height: 24px
+    .date-area{
+      display: flex
+      justify-content: space-between
+      padding: 20px 0
+    }
+    .area-weather{
+    }
+    
+    .recommend-text{
+      color: #333
+      font-size: 34px
+      line-height: 1.8
+      text-align: left
+      image{
+        width: 100%
+        margin-bottom: 30px
+      }
+      .icon-group{
+        padding: 10px 0
+        color: #ccc
+        font-size: 34px
+        display: flex
+        justify-content: space-between
+        .icon-right{
+          .yu{
+            margin-left: 30px
+          }
+        }
+        text{
+          font-size: 24px
+          margin-left: 10px
+        }
+      }
+    }
+  }
+  &_recommend-list{
+    margin-top: 80px
+    position: relative
+    .recommend-list{
+      background: #fff;
+      padding: 30px 30px;
+      margin-bottom: 30px;
+      border-radius: 10px
+      .item-title{
+
+      }
+      .item-img{
+        position relative;
+        width:100%;
+        .item-icon{
+          color:#fff;
+          padding:15px;
+          font-size: 24px;
+          position: absolute;
+          width:670px;
+          bottom: 0;
+          background: -webkit-linear-gradient(rgba(108,108,108,0), rgba(108,108,108,.8)); /* Safari 5.1 - 6.0 */
+          background: -o-linear-gradient(rgba(108,108,108,0), rgba(108,108,108,.9)); /* Opera 11.1 - 12.0 */
+          background: -moz-linear-gradient(rgba(108,108,108,0), rgba(108,108,108,.9)); /* Firefox 3.6 - 15 */
+          background: linear-gradient(rgba(108,108,108,0), rgba(108,108,108,.9)); /* 标准的语法 */
+          text{
+            display: inline-block;
+            text-align: left;
+          }
+        }
+      }
+      .item-content{
+        font-size: 34px
+      }
+      .icon-group{
+        padding: 10px 0
+        color: #ccc
+        font-size: 34px
+        display: flex
+        justify-content: space-between
+        .icon-right{
+          .yu{
+            margin-left: 30px
+          }
+        }
+        .icon-left{
+          display: block
+        }
+        text{
+          font-size: 24px
+          margin-left: 10px
+        }
+      }
+      image{
+        width: 100%;
+        height: 350px;
+      }
+      text{
+        text-align: left
+        line-height: 2.5
+      }
+    }
+  }
+  
+}
